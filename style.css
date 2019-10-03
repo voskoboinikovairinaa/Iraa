@@ -186,12 +186,12 @@ figcaption {
   background-color: #c6f5f0;
 }
 
-footer {
-  margin-top: 30px;
-  padding-top: 10px;
-  color: #aaaaaa;
-  border-top: 1px solid #aaaaaa;
-}
+  .footer {
+  height:100px;
+  background-color: #000;
+  box-sizing: border-box;
+  padding-top: 30px;
+  }
 
 .page-title {
   padding-top: 30px;
