@@ -16,8 +16,7 @@ h1 {
   font-family: : "Courier", monospace;
 }
 
-h2,
-select {
+h2 {
   font-size: 20px;
   line-height: normal;
 }
