@@ -229,5 +229,9 @@ figcaption {
 }
 
 .gradient {
- background-image: linear-gradient(to right, #e41dfd 0, #fcb045 100%);
+  background-image: linear-gradient(to right, #e41dfd 0, #fcb045 100%);
+}
+
+.right-column {
+  float: right;
 }
