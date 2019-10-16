@@ -94,7 +94,7 @@ s
 .blog-navigation {
   margin-bottom: 30px;
   padding: 20px;
-
+  height:100vh;
   background-color: rgba(250, 240, 230, 0.7);
   border: 5px solid #FFC0CB;
 
@@ -186,12 +186,12 @@ figcaption {
   background-color: #c6f5f0;
 }
 
-  .footer {
+  /*.footer {
   height:100px;
   background-color: #000;
   box-sizing: border-box;
   padding-top: 30px;
-  }
+  }/*/
 
 .page-title {
   padding-top: 30px;
@@ -232,6 +232,20 @@ figcaption {
   background-image: linear-gradient(to right, #e41dfd 0, #fcb045 100%);
 }
 
-.right-column {
-  float: right;
+.column {
+  display:inline-block;
+  width: 31%;
+  height:1500px;
+  margin: 0;
+  background-color: rgba(202, 224, 248, 0.5);
+  text-align:center;
+}
+.column-footer {
+background-color: black;
+height:50px;
+color: white;
+text-align: center;
+width: 105vw;
+position: relative;
+margin-left:-100px;
 }
